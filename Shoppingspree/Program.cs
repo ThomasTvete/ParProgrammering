@@ -8,14 +8,20 @@
 //Console.WriteLine($"The sale price of the phone is: {salePrice}");
 
 InStock store = new InStock();
-ClothingItem shirt = new ClothingItem("Men`s T-shirt", 50, 200, "Large", "Blue");
-store.AddStock(shirt);
-int firstChoice = ConsoleCommand.MenuChoice();
-switch (firstChoice)
+while (true)
 {
-    case 1:
-        ConsoleCommand.PrintStock(store.StockList);
-        break;
-    case 2:
-        break;
+    int firstChoice = ConsoleCommand.MenuChoice("Velkommen til din butikk!", "1. Se lagerbeholdning",
+        "2. Legg til produkter i lageret");
+    switch (firstChoice)
+    {
+        case 1:
+            ConsoleCommand.PrintStock(store.StockList);
+            break;
+        case 2:
+            InventoryItem item = ConsoleCommand.CreateItem();
+            store.AddStock(item);
+            break;
+        default:
+            break;
+    }
 }
