@@ -5,7 +5,9 @@ VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chatbot", "Chatbot\Chatbot.csproj", "{652FB6C6-FBCF-4082-9C3A-2F4FB34F97FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bilforhandler", "Bilforhandler\Bilforhandler.csproj", "{F61813E2-70CC-4C00-93C5-064E96298914}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bilforhandler", "Bilforhandler\Bilforhandler.csproj", "{F61813E2-70CC-4C00-93C5-064E96298914}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingspree", "Shoppingspree\Shoppingspree.csproj", "{BBD48CAD-D2E2-4DF9-A1E1-75F0442DED81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F61813E2-70CC-4C00-93C5-064E96298914}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F61813E2-70CC-4C00-93C5-064E96298914}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F61813E2-70CC-4C00-93C5-064E96298914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBD48CAD-D2E2-4DF9-A1E1-75F0442DED81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBD48CAD-D2E2-4DF9-A1E1-75F0442DED81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBD48CAD-D2E2-4DF9-A1E1-75F0442DED81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBD48CAD-D2E2-4DF9-A1E1-75F0442DED81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
